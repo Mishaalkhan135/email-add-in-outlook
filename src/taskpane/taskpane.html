@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=Edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Contoso Task Pane Add-in</title>
+
+    <!-- Office JavaScript API -->
+    <script type="text/javascript" src="https://appsforoffice.microsoft.com/lib/1.1/hosted/office.js"></script>
+
+    <!-- For more information on Office UI Fabric, visit https://developer.microsoft.com/fabric. -->
+    <link
+      rel="stylesheet"
+      href="https://static2.sharepointonline.com/files/fabric/office-ui-fabric-core/9.6.1/css/fabric.min.css"
+    />
+
+    <style>
+      body {
+        margin: 0;
+        padding: 0;
+        width: 100%;
+        height: 100vh;
+        overflow: hidden;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+      }
+      #report-button {
+        margin-top: 20px;
+      }
+      #crypto-container {
+        max-height: 60vh; /* Adjust as needed */
+        overflow-y: auto;
+        width: 100%;
+        margin-top: 20px;
+      }
+    </style>
+  </head>
+  <body class="ms-Fabric" dir="ltr">
+    <h3>To Send Email Click the report button</h3>
+
+    <button id="report-button" class="ms-Button">
+      <span class="ms-Button-label">Report</span>
+    </button>
+
+    <h3 style="text-decoration: underline">Crypto Rankings</h3>
+    <div id="crypto-container">
+      <table id="crypto-table" class="ms-Table">
+        <thead>
+          <tr>
+            <th>Rank</th>
+            <th>Name</th>
+            <th>Price (USD)</th>
+            <th>24h Change (%)</th>
+            <th>Market Cap (USD)</th>
+            <th>24h Volume (USD)</th>
+            <th>Supply</th>
+            <th>Max Supply</th>
+            <th>Circulating Supply</th>
+          </tr>
+        </thead>
+        <tbody>
+          <!-- Rows will be added here by JavaScript -->
+        </tbody>
+      </table>
+    </div>
+
+    <script type="text/javascript" src="taskpane.js"></script>
+  </body>
+</html>

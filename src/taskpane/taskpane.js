@@ -26,7 +26,6 @@ function sendEmail() {
         method: "POST",
         headers: {
           "Content-Type": "application/json",
-          Authorization: "Bearer mishaalkhan135",
         },
         body: JSON.stringify({
           email: "mishaalkhan135@gmail.com",

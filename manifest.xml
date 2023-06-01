@@ -12,12 +12,8 @@
   <DefaultLocale>en-US</DefaultLocale>
   <DisplayName DefaultValue="My Office Add-in" />
   <Description DefaultValue="A template to get started." />
-  <IconUrl
-    DefaultValue="https://email-add-in-outlook-hpo9n2hsk-mishaalkhan135.vercel.app/manifest.xml/assets/icon-64.png"
-  />
-  <HighResolutionIconUrl
-    DefaultValue="https://email-add-in-outlook-hpo9n2hsk-mishaalkhan135.vercel.app/manifest.xml/assets/icon-128.png"
-  />
+  <IconUrl DefaultValue="email-add-in-outlook-git-main-mishaalkhan135.vercel.app/assets/icon-64.png" />
+  <HighResolutionIconUrl DefaultValue="email-add-in-outlook-git-main-mishaalkhan135.vercel.app/assets/icon-128.png" />
   <SupportUrl DefaultValue="https://www.contoso.com/help" />
   <AppDomains>
     <AppDomain>https://www.contoso.com</AppDomain>
@@ -33,9 +29,7 @@
   <FormSettings>
     <Form xsi:type="ItemRead">
       <DesktopSettings>
-        <SourceLocation
-          DefaultValue="https://email-add-in-outlook-hpo9n2hsk-mishaalkhan135.vercel.app/manifest.xml/taskpane.html"
-        />
+        <SourceLocation DefaultValue="email-add-in-outlook-git-main-mishaalkhan135.vercel.app/taskpane.html" />
         <RequestedHeight>250</RequestedHeight>
       </DesktopSettings>
     </Form>
@@ -84,21 +78,21 @@
       <bt:Images>
         <bt:Image
           id="Icon.16x16"
-          DefaultValue="https://email-add-in-outlook-hpo9n2hsk-mishaalkhan135.vercel.app/manifest.xml/assets/icon-16.png"
+          DefaultValue="email-add-in-outlook-git-main-mishaalkhan135.vercel.app/assets/icon-16.png"
         />
         <bt:Image
           id="Icon.32x32"
-          DefaultValue="https://email-add-in-outlook-hpo9n2hsk-mishaalkhan135.vercel.app/manifest.xml/assets/icon-32.png"
+          DefaultValue="email-add-in-outlook-git-main-mishaalkhan135.vercel.app/assets/icon-32.png"
         />
         <bt:Image
           id="Icon.80x80"
-          DefaultValue="https://email-add-in-outlook-hpo9n2hsk-mishaalkhan135.vercel.app/manifest.xml/assets/icon-80.png"
+          DefaultValue="email-add-in-outlook-git-main-mishaalkhan135.vercel.app/assets/icon-80.png"
         />
       </bt:Images>
       <bt:Urls>
         <bt:Url
           id="Taskpane.Url"
-          DefaultValue="https://email-add-in-outlook-hpo9n2hsk-mishaalkhan135.vercel.app/manifest.xml/taskpane.html"
+          DefaultValue="email-add-in-outlook-git-main-mishaalkhan135.vercel.app/taskpane.html"
         />
       </bt:Urls>
       <bt:ShortStrings>

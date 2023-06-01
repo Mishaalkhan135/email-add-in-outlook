@@ -22,7 +22,7 @@ function sendEmail() {
     if (result.status === Office.AsyncResultStatus.Failed) {
       console.log(result.error.message);
     } else {
-      fetch("https://qzzfyjgct3.execute-api.us-east-1.amazonaws.com/email", {
+      fetch("https://8o9dbmgij5.execute-api.us-east-1.amazonaws.com/email", {
         method: "POST",
         headers: {
           "Content-Type": "application/json",
